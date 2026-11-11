@@ -58,9 +58,9 @@ ocr = [
 
 # Speech recognition (Whisper) dependencies - install with: pip install -e ".[speech-rec]"
 speech-rec = [
-    "transformers==4.50.1",
+    "transformers==5.10.1",
     "sounddevice==0.5.1",
-    "torch==2.6.0",
+    "torch==2.13.0",
     "torchvision==0.21.0",
     "streamlit",
 ]
@@ -68,7 +68,7 @@ speech-rec = [
 # CLIP dependencies - install with: pip install -e ".[clip]"
 clip = [
     "openai-clip",
-    "torch==2.6.0",
+    "torch==2.13.0",
     "torchvision==0.21.0"
 ]
 
